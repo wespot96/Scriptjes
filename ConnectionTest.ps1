@@ -7,10 +7,10 @@
   use a Windows Forms GUI to add and manage targets interactively.
 
 .EXAMPLE
-  .\PBi_connectiontest.ps1
+  .\ConnectionTest.ps1
 
 .EXAMPLE
-  .\PBi_connectiontest.ps1 -NoGui -Targets "google.com:443,80","1.1.1.1:53" -TimeoutMs 3000
+  .\ConnectionTest.ps1 -NoGui -Targets "google.com:443,80","1.1.1.1:53" -TimeoutMs 3000
 #>
 
 [CmdletBinding()]
